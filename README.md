@@ -2,11 +2,13 @@
 
 This project implements a stock trading robot using an A-Based Proximal Policy Optimization (PPO) algorithm with the Actor-Critic method. The goal of the robot is to learn optimal trading strategies to maximize profits while trading stocks.
 
+The data is obtained from the website: https://www.investing.com/
+
 The project consists of three main components:
 
 **1- Stock Data Environment (StockTradingEnv):**
 
-This component provides the environment for the stock trading robot. It allows the robot to interact with historical stock data and make decisions based on the observed data. The environment includes features such as historical stock prices, indicators like RSI, MACD, ATR, and more. The environment offers discrete actions (Buy, Sell, Hold) in one code and continuous actions in another code.
+This component provides the environment for the stock trading robot. It allows the robot to interact with historical stock data and make decisions based on the observed data. The environment includes features such as historical stock prices, and indicators like RSI, MACD, ATR, and more. The environment offers discrete actions (Buy, Sell, Hold) in one code and continuous actions in another code.
 
 **2- A-Based Proximal Policy Optimization (PPO):**
 
